@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.background-image{
+    height: 100%;
+    width: 100%;
+}
+
+.planet{
+    position: absolute;
+    top: 35px;
+    left: 45px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.line-top{
+    position: absolute;
+    top: 10px;
+    height: 0.1px;
+    left: 120px;
+    width: 30vw;
+    margin-top: 50px;
+    background-color: white;
+    margin-bottom: 50px;
+    border: 0px;
+}
+
+.header-nav{
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    height: 60px;
+    width: 800px;
+    background-color: transparent;
+    align-items: center;
+}
+
+.nav-rect{
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    margin: 40px;
+    font-size: 12.5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.nav-rect:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.nav-rect-active{
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    margin: 40px;
+    font-size: 12.5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
+.nav-rect-active:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.pick-dest{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    color: white;
+    font-size: 25px;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+span{
+    color: gray;
+}
+
+h4{
+    font-size: 16px;
+    color: gray;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2.36px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 40px;
+    line-height: 46px;
+    margin-top: 10px;
+    font-size: 400;
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+p{
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  rgb(208, 214, 249);
+    line-height: 35px;
+    
+}
+
+.details{
+
+    width: 45%;
+    text-align: left;
+    position: absolute;
+    top: 290px;
+    left: 150px; 
+}
+
+.device-image{
+    height: 600px;
+    width: 280px;
+    position: absolute;
+    top: 160px ;
+    left: 850px;
+}
+
+.technology-used{
+    position: absolute;
+    top: 700px;
+    left: 150px;
+}
+
+
+.circle-active{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: white;
+    display: inline-block;
+    margin: 5px;
+
+}
+
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: gray;
+    display:inline-block;
+    margin: 5px;
+}
+
+.circle:hover{
+    transition-duration: 1s;
+    background-color: rgb(237, 237, 237);
+}
+
+.moms-device-image{
+    position: absolute;
+    top: 360px ;
+    left: 780px;
+    height: 270px;
+    width: 500px;
+}
+
+.astrosat-device-image
+{
+    position: absolute;
+    top: 380px ;
+    left: 750px;
+    height: 300px;
+    width: 450px;
+}
+

@@ -1,0 +1,174 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.home-image{
+    height: 100%;
+    width: 100%;
+}
+
+.home-text{
+    color: aliceblue;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    width: 30%;
+    line-height: 2;
+}
+
+h3{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2.7px;
+    color: rgb(208 214 249);
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1{
+    font-family: "Bellefair", serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 100px;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    color: rgb(208 214 249);
+}
+
+.line{
+    position: absolute;
+    top: 10px;
+    height: 0.1px;
+    left: 120px;
+    width: 30vw;
+    margin-top: 50px;
+    background-color: white;
+    margin-bottom: 50px;
+    border: 0px;
+}
+
+.rectangle-index{
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    height: 60px;
+    width: 800px;
+    background-color: transparent;
+    align-items: center;
+}
+
+.rectangle-hom{
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    margin: 40px;
+    font-size: 12.5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.rectangle-hom:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.rectangle-dest{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    margin: 40px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 1px;
+}
+
+.rectangle-dest:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.rectangle-crew{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    margin: 40px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 1px;
+}
+
+.rectangle-crew:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.rectangle-tech{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    margin: 40px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.rectangle-tech:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.circle-explore{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 350px;
+    right: 250px;
+}
+
+.circle-content{
+    color: rgb(14, 14, 59);
+    text-decoration: none;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    font-family: "Bellefair", serif;
+    letter-spacing: 2.7px;
+}
+
+.circle-explore:hover{
+    background-color: rgb(227, 229, 238); 
+}
+
+
+
+
+.planet{
+    position: absolute;
+    top: 35px;
+    left: 45px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
